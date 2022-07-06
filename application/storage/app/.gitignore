@@ -1,5 +1,16 @@
 *
 !purifier/
+!purifier/CSS
+!purifier/CSS/4.13.0,03265458861f6754c6eb32475e164bdbf1807a67,1.ser
+!purifier/CSS/4.13.0,aa956324c4146afb25655f1e7cd4b9e6667cf2eb,1.ser
+!purifier/HTML
+!purifier/HTML/4.13.0,1c5fd06053f43fc4791dea2cd1180d7dd354700a,1.ser
+!purifier/HTML/4.13.0,3cb57add60dc5e1f35f8c220c3e3970284165a29,1.ser
+!purifier/HTML/4.13.0,92dc1812ec0887b3a609dfb0640a32f1345ce4c5,1.ser
+!purifier/HTML/4.13.0,bdc97362df5ea5311f4ccdcbf9e288e5b3eadaeb,1.ser
+!purifier/HTML/4.13.0,e8bf242a136d3a83efff933e17d2210d68d6b846,1.ser
+!purifier/URI
+!purifier/URI/4.13.0,3478238e680361cd87bf880f5b3cc50a1e7abc6c,1.ser
 !dejavusans-600_54a3b7fa6d24096f68bf3a2b19571a16.ttf
 !dejavusans-600_54a3b7fa6d24096f68bf3a2b19571a16.ufm
 !dejavusans-bold_54a3b7fa6d24096f68bf3a2b19571a16.ttf
