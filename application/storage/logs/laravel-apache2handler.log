@@ -1,0 +1,22 @@
+[2022-07-06 09:40:09] production.ERROR: unlink(/opt/lampp/htdocs/crm/updates/test.txt): No such file or directory {"exception":"[object] (ErrorException(code: 0): unlink(/opt/lampp/htdocs/crm/updates/test.txt): No such file or directory at /opt/lampp/htdocs/crm/application/app/Providers/UpdateServiceProvider.php:78)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'unlink(/opt/lam...', '/opt/lampp/htdo...', 78, Array)
+#1 /opt/lampp/htdocs/crm/application/app/Providers/UpdateServiceProvider.php(78): unlink('/opt/lampp/htdo...')
+#2 [internal function]: App\\Providers\\UpdateServiceProvider->boot()
+#3 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(39): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(867): Illuminate\\Container\\Container->call(Array)
+#9 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\UpdateServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\UpdateServiceProvider), 30)
+#11 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): array_walk(Array, Object(Closure))
+#12 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#16 /opt/lampp/htdocs/crm/application/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#17 /opt/lampp/htdocs/crm/index.php(92): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#18 {main}
+"} 
