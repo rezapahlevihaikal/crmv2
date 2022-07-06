@@ -30,7 +30,7 @@
     <link href="public/css/custom.css?v={{ config('system.versioning') }}" rel="stylesheet">
 
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon/we_kecil.png">
     <meta name="theme-color" content="#ffffff">
 
     <!--SET DYNAMIC VARIABLE IN JAVASCRIPT-->
